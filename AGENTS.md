@@ -21,9 +21,10 @@ This workspace contains tools, apps, and scripts for distribution and GTM work.
 
 - `notes/` — Obsidian vault. Search or read relevant notes when needed; write to it only when requested.
 - Apify CLI (`apify`) — web scraping, data collection, and browser automation.
-- Whisper — local audio and video transcription.
+- Whisper (`whisper-ctranslate2`) — local audio and video transcription.
 - FFmpeg (`ffmpeg`) — media inspection, conversion, and audio extraction.
-- Tempo/x402/MPP — discover and purchase paid API services when the task calls for them, subject to configured spending limits.
+- PostHog (`posthog-cli`) — product and marketing analytics across two projects, with write access to both; read `docs/posthog.md` before any PostHog task.
+- Tempo/x402/MPP — discover and purchase paid API services when the task calls for them, subject to configured spending limits; read `docs/paid-services.md` before use.
 - GitHub CLI (`gh`) — repositories, issues, pull requests, and other GitHub operations using the active global configuration.
 - `apps/` — reusable GTM applications.
 - `scripts/` — smaller reusable commands and automations.
