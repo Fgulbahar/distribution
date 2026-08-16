@@ -13,6 +13,10 @@ This workspace contains tools, apps, and scripts for distribution and GTM work.
 - External actions such as sending messages, publishing, or purchasing must be within the current request. Ask only if the scope or cost materially expands.
 - Use the GitHub CLI (`gh`) for GitHub operations. Respect the active account and existing global Git and `gh` configuration; do not modify global configuration unless explicitly requested.
 
+## Codex-Only Notes
+
+- For commands that depend on host credentials, Keychain access, or global configuration, operate in the local host environment rather than the sandbox, requesting approval when required.
+
 ## Available Capabilities
 
 - `notes/` — Obsidian vault. Search or read relevant notes when needed; write to it only when requested.
