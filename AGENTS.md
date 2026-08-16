@@ -26,6 +26,7 @@ This workspace contains tools, apps, and scripts for distribution and GTM work.
 - PostHog (`posthog-cli`) — product and marketing analytics across two projects, with write access to both; read `docs/posthog.md` before any PostHog task.
 - Tempo/x402/MPP — discover and purchase paid API services when the task calls for them, subject to configured spending limits; read `docs/paid-services.md` before use.
 - GitHub CLI (`gh`) — repositories, issues, pull requests, and other GitHub operations using the active global configuration.
+- Controller AI (`cai`) — build, test, and publish Controller AI agents and no-code workflows; installed skills route the work, so start from the `controllerai-start` skill.
 - `apps/` — reusable GTM applications.
 - `scripts/` — smaller reusable commands and automations.
 
